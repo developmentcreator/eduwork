@@ -1,0 +1,35 @@
+https://3.bp.blogspot.com/-ZcUp-f8LtpE/WJhkSmZoDYI/AAAAAAAADzA/yCVxld7RX54uxKKBhY-0pI-TfOqmTaFugCPcB/s1600/git-petanikode.png
+Deskripsi
+GIT adalah salah satu version control system yang diciptakan oleh Linus Torvalds
+GIT mencatat setiap perubahan file di code atau sourcode kita
+
+Manfaat
+Bisa menyimpan seluruh versi source code
+Berkolaborasi membangun sistem jadi mudah
+Bisa berkontribusi di proyek open source
+Memudahkan dalam tracking perubahan
+Memahami cara deploy modern
+Bisa deploy lokal sendiri
+Dsb
+
+Kapan dibutuhkan
+Saat ingin membangun sistem dengan berkolaborasi
+Membuat versi dari sistem
+Backup sour code
+Berkolaborasi dengan programmer dunia
+
+Git dikenal juga dengan distributed revision control (VCS terdistribusi), artinya penyimpanan database Git tidak hanya berada dalam satu tempat saja
+Git hadir untuk menutupi kerkurangan yang dimiliki oleh VCS terpusat.
+
+Install Git di Windows
+Kita harus men-download dulu  (git-scm.com), kemudian melakukan ritual next>next>finish.
+klik 2x file instaler Git yang sudah diunduh
+Selanjutnya menentukan lokasi instalasi
+Selanjutnya pemlilihan direktori start menu
+Selanjutnya pengaturan PATH Environment. Pilih yang tengah agar perintah git dapat di kenali di Command Prompt (CMD)
+Selanjutnya konversi line ending
+Selanjutnya pemilihan emulator terminal.
+Selanjutnya pemilihan opsi ekstra
+Selanjutnya pemilihan opsi ekspreimental, langsung saja klik Install untuk memaulai instalasi
+Setelah selesai, kita bisa langsung klik Finish
+Selamat, Git sudah terinstal di Windows. Untuk mencobanya, silahkan buka CMD atau PowerShell, kemudian ketik perintah git --version
