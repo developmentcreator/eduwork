@@ -1,0 +1,90 @@
+Deskripsi
+Perintah perintah dasar yang sering dilakukan untuk mengoperasikan GIT
+
+Manfaat
+Terbiasa mengerjakan proyek dengan terdokumentasi
+Fleksibel dalam mengeksplorasi fitur
+Mempercepat dalam mengerjakan proyek terlebih jika proyek kolaborasi
+
+Todo
+Git init
+Git config
+Git status
+Git add
+Git commit
+Git clone
+Git remote
+Git push
+Git pull
+
+Kapan dibutuhkan
+Saat mengerjakan proyek
+
+Membuat Repository git
+Tentukan folder yang mau dibuat
+Masuk ke folder git 
+Dengan menggunakan perintah   cd D:/eduwork/mern/git
+Jika ingin menghapus repository dengan perintah  rm -rf git
+Jika melihat isi dari repository dengan perintah  ls
+Jika membuat folder baru dengan perintah  mkdir git
+
+Git init
+Digunakan untuk menginisialisasi repository
+Atau memberi tahu folder saat ini akan dijadikan repository
+Kita tidak bisa menggunakan git tanpa menginisialisasinya
+Dengan menggunakan perintah  git init
+
+Git config
+Konfigurasi email dan username
+Biasanya disamakan dengan akun gitlab / github
+Config global untuk konfigurasi ke server
+Config local untuk konfigurasi local
+Untuk melihat semua konfigurasi yang ada di git bisa menggunakan perintah  git config --list 
+
+Konfigurasi local username
+Dengan menggunakan perintah  git config --local user.name "bagus"
+
+Konfigurasi global usernme
+Dengan menggunakan perintah git config --global user.name "bagus"
+
+Konfigurasi local email
+Dengan menggunakan perintah git config --local user.email "bagus.addin354@gmail.com"
+
+Konfigurasi global email
+Dengan menggunakan perintah git config --global user.email "bagus.addin354@gmail.com"
+
+Git status
+Digunakan untuk mengetahui status file
+Status file secara umum ada 3. Untracked(file baru yang sebelumnya belum kebaca oleh git), staging area(file yang sudah siap di commit), modified(file yang sudah ada yang siap di modif)
+Dengan menggunakan perintah  git status
+
+Git add .
+Untuk memasukan file ke staging area
+Dengan menggunakan perintah  git add . untuk memasukkan satu file git add index.html
+
+Git commit
+Untuk mencatat perubahan yang dilakukan
+Dengan menggunakan perintah  git commit -m "update commit"
+Membatalkan apapun perubahan dari commit dengan perintah  git reset --hard
+
+Git log
+Untuk melihat riwayat commit
+Tekan q untuk keluar dari log
+Dengan menggunakan perintah  git log
+
+Git clone
+Digunakan untuk mengcopy repo dari server
+Dengan menggunakan perintah  git clone 
+
+Git push
+Untuk mengirimkan commit ke server
+Dengan menggunakan perintah  git push origin master
+
+Git remote
+Semacam api untuk berinteraksi dari client dengan server
+Dengan menggunakan perintah  git remote -v
+
+Git pull
+Untuk mengambil commit dari server jika ada perubahan di server yang dibuat oleh branch lain
+Dengan menggunakan perintah  git pull origin bagus
+
