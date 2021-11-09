@@ -1,0 +1,20 @@
+Deskripsi
+Software berbasis GUI untuk memudahkan dalam mengoperasikan git
+
+Manfaat
+Mudah digunakan
+Solving conflict jadi lebih mudah
+Mempercepat kinerja
+
+Kapan dibutuhkan
+Setiap saat
+
+Solving conflict using sourcetree
+Install diff merge. Download disini
+
+konfigurasi
+Dibagian bar atas pilih Tool kemudian pilih Option kemudian pilih Diff
+Exsternal Diff Tool diisi Diff Merge
+Diff comand diisi tempat menginstal aplikasinya dan pilih aplikasinya
+Ok
+
