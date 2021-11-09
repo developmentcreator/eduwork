@@ -24,3 +24,5 @@ Conflict
 Kondisi yang terjadi ketika merging 2 branch yang memiliki perubahan pada file yang sama
 Ketika conflict, kita tidak bisa melakukan commit
 Untuk melakukan commit, conflict harus diselesaikan dulu
+
+Perintah untuk memasukkan file ke stage area dan sekaligus mengcommit dengan git add . && git commit -m "create about.html"
