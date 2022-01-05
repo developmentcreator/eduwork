@@ -1,0 +1,11 @@
+{
+  "name": "module-system",
+  "version": "1.0.0",
+  "description": "",
+  "main": "Index.html",
+  "type": "module",
+  "scripts": {
+    "start": "Index.html --open",
+    "build": "build Index.html"
+  }
+}
