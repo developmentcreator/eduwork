@@ -1,0 +1,33 @@
+.container {
+    color:aliceblue;
+    height: 100%;
+    width: 100%;
+    background-color: blue;
+}
+
+h1 {
+    font-size: 25px;
+    font-family: 'Franklin Gothic Medium';
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.box-articles {
+    height: auto;
+    width: 100%;
+}
+
+.img {
+    width: 100%;
+    height: auto;
+}
+
+#img {
+    width: 50%;
+}
+
+.title {
+    color: white;
+    font-size: medium;
+    font-family: 'Lucida Sans';
+}
