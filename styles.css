@@ -1,0 +1,40 @@
+
+.container {
+    color:aliceblue;
+    height: 100%;
+    width: 100%;
+    background-color: royalblue;
+    
+}
+
+h1 {
+    font-size: 25px;
+    font-family: 'Franklin Gothic Medium';
+    padding-top: 2px;
+    padding-bottom: 2px;
+    background-color: firebrick;
+}
+
+.box-articles {
+    height: auto;
+    width: 100%;
+}
+
+.img {
+    width: 75%;
+    height: 50%;
+    margin-top: 10;
+    margin-bottom: 10;
+    margin-left: 10;
+    margin-right: 10;
+}
+
+.title {
+    color: white;
+    font-size: medium;
+    font-family: 'Lucida Sans';
+}
+
+.h3 {
+    font-family: 'Segoe UI';
+}
