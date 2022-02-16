@@ -1,12 +1,12 @@
 import React from "react";
-import Bootstrap from "./tugas/Styling/Bootstrap";
+import Form from "./tugas/Form";
 
 
 
 function App() {
   return (
     <div className="App">
-      <Bootstrap />
+      <Form />
     </div>
   );
 }
