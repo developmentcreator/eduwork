@@ -26,6 +26,8 @@ function Search(props) {
               Search
             </button>
           </form>
+          <br />
+          <br />
         </div>
       </div>
     </div>
