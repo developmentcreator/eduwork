@@ -1,12 +1,13 @@
 import React from "react";
-import Form from "./tugas/Form";
+import LifecycleComponents from "./tugas/LifecycleComponents";
+
 
 
 
 function App() {
   return (
     <div className="App">
-      <Form />
+      <LifecycleComponents />
     </div>
   );
 }

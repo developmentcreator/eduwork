@@ -7,7 +7,7 @@ const CardCustom = ({ foto, judul, keterangan, tanggal }) => {
       <Card.Body bg="dark">
         <Card.Title>{judul}</Card.Title>
         <Card.Text>{keterangan}</Card.Text>
-        <Button variant="primary">Go somewhere</Button>
+        <Button variant="primary">selengkapnya</Button>
       </Card.Body>
       <Card.Footer>
         <small className="text-muted">{tanggal}</small>
