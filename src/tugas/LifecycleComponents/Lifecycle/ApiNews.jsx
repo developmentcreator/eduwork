@@ -77,7 +77,7 @@ const ApiNews = () => {
                         </div>
                     ) : error ? (
                             <div className="col-md-12">
-                                <h1>    Data Not Found</h1>
+                                <h1>Data Not Found</h1>
                         </div>
                     ) : (
                         data.map((val, index) => {
