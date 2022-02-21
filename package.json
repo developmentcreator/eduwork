@@ -45,5 +45,9 @@
   },
   "devDependencies": {
     "sass": "^1.49.7"
-  }
+  },
+  "main": "index.js",
+  "repository": "https://github.com/developmentcreator/eduwork.git",
+  "author": "bagus354 <bagus.addin354@gmail.com>",
+  "license": "MIT"
 }
