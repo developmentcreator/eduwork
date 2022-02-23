@@ -1,4 +1,5 @@
 import React from "react";
+//import FunctionalComponents from "./tugas/Hook";
 import LifecycleComponents from "./tugas/LifecycleComponents";
 
 
