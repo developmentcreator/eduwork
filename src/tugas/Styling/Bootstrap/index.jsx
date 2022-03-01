@@ -75,7 +75,7 @@ import CardCustom from "./CardCustom";
                             <Figure.Caption>
                                 Bagus Addin Prabowo ,Junior Programer
                                 </Figure.Caption>
-                                <button type="button w3-hover-opacity" class="btn btn-link">Linkedln profile</button>
+                                <Button type="button w3-hover-opacity" class="btn btn-link" href="https://www.linkedin.com/mynetwork/">Linkedln profile</Button>
                             </Figure>
 
                             <Alert variant="success">
@@ -96,36 +96,42 @@ import CardCustom from "./CardCustom";
                                     judul='React Js'
                                     keterangan='JavaScript library for building user interfaces.'
                                     tanggal='Last updated 3 mins ago'
+                                    url='https://reactjs.org/'
                                 />
                                 <CardCustom
                                     foto='https://cdn.pixabay.com/photo/2015/04/23/17/41/node-js-736399_960_720.png'
                                     judul='Node Js'
                                     keterangan='Node.js is a runtime for JavaScript environments outside of web browsers built on v8 JavaScript Engine.'
                                     tanggal='Last updated 3 mins ago'
+                                    url='https://nodejs.org/en/'
                                 />
                                 <CardCustom
                                     foto='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ5bW6QIpU8Lv2kDK9F6w7gLmplBcqQsUrfOIO4XOCf3jK4261C40c5-gUrHZkZkwQXcQg&usqp=CAU'
                                     judul='Express Js'
                                     keterangan='JavaScript framework.'
                                     tanggal='Last updated 3 mins ago'
+                                    url='https://expressjs.com/'
                                 />
                                 <CardCustom
                                     foto='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQOsEvPZ-B34DZ5UJkkjlJYYsX890Gys6RGvhIl66zKupXKD_opmmLGhlgJhRMW3cJoaHY&usqp=CAU'
                                     judul='My SQL'
                                     keterangan='MySQL is a SQL database management system software.'
                                     tanggal='Last updated 3 mins ago'
+                                    url='https://www.mysql.com/'
                                 />
                                 <CardCustom
                                     foto='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-BIWDQzycI9djwryJ3fUXD22fygWrReayE4BLNmoi1wKxaKp9aRkLhTkIp70sTsYi6Cw&usqp=CAU'
                                     judul='Mongo DB'
                                     keterangan='MongoDB (from "humongous") is a cross-platform document-oriented database system.'
                                     tanggal='Last updated 3 mins ago'
+                                    url='https://www.mongodb.com/'
                                 />
                                 <CardCustom
                                     foto='https://res.cloudinary.com/de5lnco7h/image/upload/v1532666051/906c83359a7cd1ffd3e5834aab0c3293_dsf6sg.jpg'
                                     judul='Soft Skill'
                                     keterangan='Communication,Flexibility,Leadership,Motivation,Patience,Persuasion,Problem solving skill,Team work,Time management,Work ethic.'
                                     tanggal='Last updated 3 mins ago'
+                                    url='https://www.linkedin.com/mynetwork/'
                                 />
                             </CardGroup>
                             

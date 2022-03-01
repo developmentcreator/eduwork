@@ -1,16 +1,18 @@
 import React from "react";
-//import FunctionalComponents from "./tugas/Hook";
-import LifecycleComponents from "./tugas/LifecycleComponents";
-
+import Routing from "./tugas";
 
 
 
 function App() {
   return (
-    <div className="App">
-      <LifecycleComponents />
+    <div>
+      <Routing />
     </div>
   );
 }
 
 export default App;
+
+
+
+
