@@ -1,0 +1,19 @@
+.btn {
+    border: 2px;
+    background-color: aliceblue;
+    color: aqua;
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.btn-info {
+    border-color: aquamarine;
+    color: dodgerblue;
+    border-radius: 10px;
+}
+
+.btn-info:hover {
+    background: aquamarine;
+    color: white;
+}
