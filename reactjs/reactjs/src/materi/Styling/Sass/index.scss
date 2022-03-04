@@ -1,0 +1,36 @@
+$blue : aquamarine;
+$red : firebrick;
+
+.btn {
+    border: 2px solid black;
+    background-color: aliceblue;
+    color: aqua;
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.btn-info {
+    border-color: $blue;
+    color: dodgerblue;
+    border-radius: 10px;
+    &:hover {
+        background: $blue;
+        color: white;
+    }
+}
+
+.btn-danger {
+    border-color: $red;
+    color: dodgerblue;
+    border-radius: 10px;
+
+    &:hover {
+        background: $red;
+        color: white;
+    }
+}
+
+.title {
+    color: $red;
+}
