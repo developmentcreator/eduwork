@@ -14,18 +14,25 @@
     "react-bootstrap": "^2.1.2",
     "react-dom": "^17.0.2",
     "react-loader-spinner": "^5.1.4",
+<<<<<<< HEAD:package.json
+=======
 <<<<<<< HEAD:reactjs/reactjs/package.json
+>>>>>>> fb24f25893fafb68394c6a1156d4b86b0c578b34:reactjs/reactjs/package.json
     "react-redux": "^7.2.6",
     "react-router-dom": "^6.2.1",
     "react-scripts": "^5.0.0",
     "reactjs": "^1.0.0",
     "redux": "^4.1.2",
     "redux-thunk": "^2.4.1",
+<<<<<<< HEAD:package.json
+    "redux-toolkit": "^1.8.0",
+=======
 =======
     "react-router-dom": "^6.2.1",
     "react-scripts": "^5.0.0",
     "reactjs": "^1.0.0",
 >>>>>>> 3491c7c390f23ffdff1f85ca64f82e1b5355d723:package.json
+>>>>>>> fb24f25893fafb68394c6a1156d4b86b0c578b34:reactjs/reactjs/package.json
     "styled": "^1.0.0",
     "styled-components": "^5.3.3",
     "validatorjs": "^3.22.1",
