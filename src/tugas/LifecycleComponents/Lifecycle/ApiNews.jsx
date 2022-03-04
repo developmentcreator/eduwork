@@ -6,7 +6,7 @@ import CardCustom from "./CardCustom";
 import { BallTriangle } from "react-loader-spinner"
 import Search from "./Search";
 
-export default class Apinews extends React.Component {
+export default class ApiNews extends React.Component {
     constructor(props) {
         super(props);
         this.state = {
@@ -23,7 +23,7 @@ export default class Apinews extends React.Component {
     getData = () => {
         axios
         .get(
-            "https://newsapi.org/v2/top-headlines?country=id&apiKey=4d99d2c9ab144aa59f62b17b7a648d64"
+            `https://newsapi.org/v2/top-headlines?country=id&apiKey=4d99d2c9ab144aa59f62b17b7a648d64&q=${this.state.search}`
         )
         .then((res) => {
             this.setState({
@@ -44,21 +44,7 @@ export default class Apinews extends React.Component {
         this.setState({
         isLoading: true,
         });
-        axios
-        .get(
-            `https://newsapi.org/v2/top-headlines?country=id&apiKey=4d99d2c9ab144aa59f62b17b7a648d64&q=${this.state.search}`
-        )
-        .then((res) => {
-            this.setState({
-            data: res.data.articles,
-            isLoading: false,
-            });
-        })
-        .catch((err) => {
-            this.setState({
-            isLoading: false,
-            });
-        });
+        this.getData();
     }
 
     render() {

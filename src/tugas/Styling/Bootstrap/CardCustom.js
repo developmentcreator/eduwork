@@ -1,5 +1,5 @@
 import { Card, Button } from "react-bootstrap";
-const CardCustom = ({ foto, judul, keterangan, tanggal }) => {
+const CardCustom = ({ foto, judul, keterangan, tanggal, url }) => {
    
   return (
     <Card>
@@ -7,7 +7,7 @@ const CardCustom = ({ foto, judul, keterangan, tanggal }) => {
       <Card.Body bg="dark">
         <Card.Title>{judul}</Card.Title>
         <Card.Text>{keterangan}</Card.Text>
-        <Button variant="primary">selengkapnya</Button>
+        <Button variant="primary" href={url}>selengkapnya</Button>
       </Card.Body>
       <Card.Footer>
         <small className="text-muted">{tanggal}</small>

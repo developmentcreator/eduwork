@@ -15,15 +15,15 @@ const ApiNews = () => {
     const [error, setError] = useState(false);
     
     useEffect(() => {
-        const fetchData = async () => {
+        const getData = async () => {
         const result = await axios(
-            "https://newsapi.org/v2/top-headlines?country=id&apiKey=4d99d2c9ab144aa59f62b17b7a648d64"
+            `https://newsapi.org/v2/top-headlines?country=id&apiKey=4d99d2c9ab144aa59f62b17b7a648d64&q=${search}`
         );
         setData(result.data.articles);
         setLoading(false);
         };
-        fetchData();
-    }, []);
+        getData();
+    }, [search]);
     
     const handleChange = (e) => {
         setSearch(e.target.value);
@@ -32,18 +32,10 @@ const ApiNews = () => {
     const handleSubmit = (e) => {
         e.preventDefault();
         setLoading(true);
-        axios
-        .get(
-            `https://newsapi.org/v2/top-headlines?country=id&apiKey=4d99d2c9ab144aa59f62b17b7a648d64&q=${search}`
-        )
-        .then((res) => {
-            setData(res.data.articles);
-            setLoading(false);
-        })
-        .catch((err) => {
-            setError(true);
-            setLoading(false);
-        });
+        setError(false);
+        setData([]);
+        setSearch("");
+
     };
     
     return (
