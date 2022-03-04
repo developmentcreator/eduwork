@@ -1,12 +1,13 @@
 import React from "react";
-import Routing from "./tugas";
+import Redux from "./materi/Redux";
+
 
 
 
 function App() {
   return (
     <div>
-      <Routing />
+      <Redux />
     </div>
   );
 }
