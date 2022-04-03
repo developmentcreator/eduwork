@@ -1,4 +1,4 @@
-const connection = require('../../config/sequelize');
+const sequelize = require('../../config/sequelize');
 const Product = require("./model");
 const path = require('path');
 const fs = require('fs');
@@ -71,13 +71,6 @@ const update = async (req, res) => {
         res.json(product);
     }
 };
-
-
-
-
-
-
-
 
 const _response = (res) => {
     return (error, results) => {
