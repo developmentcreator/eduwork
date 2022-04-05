@@ -3,14 +3,12 @@ import ReactDOM from 'react-dom';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import './index.css';
-import Integrasi from './Hook/Integrasi';
+
 
 
 ReactDOM.render(
   <React.StrictMode>
-    <App>
-    <Integrasi />
-    </App>
+    <App />
   </React.StrictMode>,
   document.getElementById('root')
 );
