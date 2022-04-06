@@ -14,27 +14,29 @@ const Detail = () => {
     try {
       await axios
         .get(`http://localhost:3000/api/v4/product/${id}`)
+        
         .then((res) => {
-          setDisplay(res.data);
+          setDisplay(res.data[0]);
           console.log(res.data);
         })
     } catch (error) {
-      console.log(error.message);
+      console.log(error.message, 'ini errornya');
     }
-  }, [id]);
-  
+  }, [id])
+
   useEffect(() => {
     getData();
   }, [getData])
+
 
   return (
     <div className="main">
       <Link to="/" className="btn btn-primary">Kembali</Link>
       <table className="table">
-        <tbody>
+        <tbody>    
           <tr>
             <td>ID</td>
-            <td>{display.id}</td>
+            <td>{display._id}</td>
           </tr>
           <tr>
             <td>Name</td>
@@ -50,7 +52,7 @@ const Detail = () => {
           </tr>
           <tr>
             <td>Status</td>
-            <td>{display.status}</td>
+            <td>{display.status ? 'Tersedia' : 'Kosong'}</td>
           </tr>
         </tbody>
       </table>
