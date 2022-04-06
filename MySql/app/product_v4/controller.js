@@ -11,7 +11,7 @@ const index = (req, res) => {
 
 const view = (req, res) => {
     const { id } = req.params;
-    Product.findOne({ _id: id })
+    Product.find({_id: id})
         .then(result => res.send(result))
         .catch(err => res.send(err));
 };
@@ -41,7 +41,7 @@ const update = (req, res) => {
     if (image) {
         const target = path.join(__dirname, "../../uploads", image.originalname);
         fs.renameSync(image.path, target);
-        Product.update(
+        Product.findByIdAndUpdate(
             { _id: req.params.id },
             {
                 name,
@@ -54,7 +54,7 @@ const update = (req, res) => {
             .then((result) => res.send(result))
             .catch((error) => res.send(error));
     } else {
-        Product.update(
+        Product.findByIdAndUpdate(
             { _id: req.params.id },
             {
                 name,
