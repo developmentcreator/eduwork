@@ -20,7 +20,7 @@ const store = async (req, res, next) => {
     }
 
     //update karena relasi dengan tag
-    if (payload.tags && payload.length > 0) {
+    if (payload.tags && payload.tags.length > 0) {
       let tags = await Tag
         .findOne({name: { $in: payload.tags }});
       if (tags.length) {
@@ -106,11 +106,9 @@ const update = async (req, res, next) => {
 
     //update karena relasi dengan tag
     if (payload.tags && payload.tags.length > 0) {
-      let tags = await Tag.find({
-        name: { $in: payload.tags }
-      });
+      let tags = await Tag.find({ name: { $in: payload.tags } });
       if (tags.length) {
-        payload = { ...payload, tags: tags.map(tag => tag._id) };
+        payload = { ...payload, tags: tags.map((tag) => tag._id) };
       } else {
         delete payload.tags;
       }
@@ -184,7 +182,7 @@ const update = async (req, res, next) => {
 
 const index = async (req, res, next) => {
   try {
-    let { skip = 0, limit = 10, q = '', category = '', tags = []  } = req.query;       //menambahkan filter
+    let { skip = 0, limit = 100, q = '', category = '', tags = []  } = req.query;       //menambahkan filter
     
 
     let criteria = {};

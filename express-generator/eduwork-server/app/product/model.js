@@ -5,8 +5,8 @@ const productSchema = Schema(
   {
     name: {
       type: String,
-      minlength: [3, "Panjang nama makanan minimal 3 karakter"],
-      required: [true, "Nama makanan tidak boleh kosong"],
+      minlength: [3, "Panjang nama barang minimal 3 karakter"],
+      required: [true, "Nama barang tidak boleh kosong"],
     },
 
     description: {
@@ -27,7 +27,7 @@ const productSchema = Schema(
     },
 
     tags: {
-      type: Schema.Types.ObjectId,
+      type: Schema.Types.Array,
       ref: "Tag"
     }
 
